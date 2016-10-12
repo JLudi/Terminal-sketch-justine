@@ -22,7 +22,7 @@ function draw() {
   // rect(xPos,yPos,150,150);
   // line(x1,y1,x2,y2)
   strokeWeight(2);
-  line(0,height,width,0);
+  //line(0,height,width,0);
   line(0,height/2,width,0);
   line(0,height/2,width/2,0);
   line(0,height/3,width,0);
