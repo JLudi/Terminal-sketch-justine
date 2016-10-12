@@ -1,9 +1,11 @@
+// version 2
+
 var xPos = 10;
 var yPos = 10;
 var d = 100;
 var width, height;
-var counter = "coucou";
-var counter2 = "toi";
+//var counter = "coucou";
+//var counter2 = "toi";
 
 function setup() {
     // print("hello world");
@@ -15,7 +17,7 @@ function setup() {
 }
 
 function draw() {
-  print(counter + " : " + counter2);
+  // print(counter + " : " + counter2);
   // fill(0,0,255);
   // print("hello world");
   // rectangle (x,y,width,height)
@@ -39,10 +41,4 @@ function draw() {
   ellipse(width/2,height/2,d/2,d/2);
   ellipse(width/6,height/6,d/2,d/2);
   ellipse(width-200,height-100,d/2,d/2);
-
-
-
-
-
-
 }
