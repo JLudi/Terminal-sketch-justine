@@ -15,15 +15,6 @@ var sampleAmountHigh = 100;
 function preload() {
   //song = loadSound('assets/stranger.mp3');
   song = loadSound('assets/Source.mp3');
-  //song = loadSound('assets/hang.mp3');
-  //song = loadSound('assets/mount.m4a');
-  //song = loadSound('assets/thi.mp3');
-  //song = loadSound('assets/thi.mp3');
-
-
-
-
-
 }
 
 function setup() {
@@ -104,6 +95,7 @@ function draw() {
   fill(40+newColorHigh,0,255,newColorHigh);
   rect(100,20,200,200);
   pop();
+
 
 
   for(var i = 0; i < tableau.length; i++){

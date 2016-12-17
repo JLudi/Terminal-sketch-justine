@@ -5,9 +5,9 @@ var h = window.innerHeight;
 var w = window.innerWidth;
 
 
-function preload() {
+/**function preload() {
   song = loadSound('assets/Source.mp3');
-}
+}**/
 
 function setup() {
   createCanvas(w,h);
