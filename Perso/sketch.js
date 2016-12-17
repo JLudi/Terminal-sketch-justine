@@ -4,15 +4,16 @@ var system;
 
 
 function preload() {
-  //mySound = loadSound('assets/Source.mp3');
+
+  mySound = loadSound('assets/Source.mp3');
 }
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   noStroke();
   system = new ParticleSystem(createVector(width/2, 50));
-//  mySound.setVolume(1);
-//  mySound.play();
+  mySound.setVolume(0.1);
+  mySound.play();
 }
 
 function draw() {
